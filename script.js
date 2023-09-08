@@ -18,7 +18,5 @@ document.addEventListener("DOMContentLoaded", function () {
     const trackElement = document.querySelector('[data-testid="myTrack"]');
     trackElement.textContent = "Frontend"; // Replace with your actual track
 
-    // GitHub URL
-    const githubURLElement = document.querySelector('[data-testid="githubURL"]');
-    githubURLElement.querySelector("a").href = "https://github.com/yourusername/your-repo"; // Replace with your GitHub repository URL
+   
 });
